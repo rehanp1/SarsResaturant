@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact_first {
+    background: url('images/food_bg.jpg') 10% 3% no-repeat;
+    background-size: cover;
+    height: 65%;
+}
+
+.contact_first .head {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 90px;
+}
+
+.main {
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3% 14%;
+}
+
+.main .part {
+    padding: 25px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.main .part h1 {
+    text-decoration: underline;
+    color: #e7272d;
+    font-family: Cookie, cursive;
+    font-size: 45px;
+}
+
+.main .part p {
+    padding: 15px 0px;
+}
+
+
+.main .getint input,
+.main .getint textarea {
+    border: 1px solid red;
+    background-color: rgb(247, 237, 237);
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #e7272d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main .getint input:hover,
+.main .getint textarea:hover {
+    background-color: white;
+}
+
+.main .getint button {
+    margin-left: 70%;
+    padding: 14px 25px;
+    background-color: #e7272d;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.main .getint button:hover {
+    background-color: black;
+}
+
+.main .findus ul {
+    margin: 12px 3px;
+    display: block;
+}
+
+.main .findus img {
+    margin-top: 15px;
+    width: 90%;
+}

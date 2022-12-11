@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery_first {
+    color: white;
+    height: 65%;
+    background: url('Images/food_bg.jpg') 10% 3% no-repeat;
+    background-size: cover;
+}
+
+.gallery_first .head {
+    font-size: 100px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.gmain {
+    height: 65%;
+    text-align: center;
+    padding: 6% 12%;
+}
+
+.gmain .headings {
+    width: 60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+}
+
+.gmain .headings h3 {
+    color: #e7272d;
+    font-size: 45px;
+    font-family: Cookie, cursive;
+    padding: 10px;
+}
+
+.gmain .headings h1 {
+    font-size: 45px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.gmain .videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    margin-top: 3%;
+}
+
+.gmain .videos div {
+    width: 97%;
+    height: 2.5in;
+    display: grid;
+    place-items: center;
+}
+
+.gmain .videos div a img {
+    height: 60px;
+    width: 60px;
+}
+
+.gmain .videos div a:hover {
+    border-radius: 100%;
+    background-color: #e7272d;
+}
+
+.gmain2 {
+    background-color: #f3eded;
+    text-align: center;
+    padding: 6% 12%;
+
+}
+
+.gmain2 .headings2 {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gmain2 .headings2 h1 {
+    font-size: 45px;
+    padding: 10px 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.gmain2 .headings2 p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 0px 10px 70px;
+    width: 85%;
+}
+
+
+.gmain2 .gimages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.gmain2 .gimages img {
+    width: 95%;
+    height: 2.5in;
+}

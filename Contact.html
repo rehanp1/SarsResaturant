@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/loader.css">
+    <link rel="stylesheet" href="CSS/Navbar.css">
+    <link rel="stylesheet" href="CSS/Contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="shortcut icon" href="CSS/Images/favicon.png" type="image/x-icon">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="myloader" class="loader">
+        <div class="loader_img">
+            <div class="lds-hourglass"></div>
+        </div>
+    </div>
+
+    <div class="contact_first">
+        <div class="navbar">
+            <div class="logo">
+                <img src="CSS/Images/logo.png" alt="logo">
+                <p>SAR's Restaurant</p>
+            </div>
+    
+            <ul class="navbarul">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Recipes.html">Recipes</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <h1 class="head">Contact Us</h1>
+
+    </div>
+
+    <div class="main">
+
+        <div class="part getint">
+            <h1>Get In Touch</h1>
+
+            <p>If You have a piece of advice or a suggestion that you would like to share with us? Feel free to contact us</p>
+
+            <form action="/backend.php">
+                <label for="">Name</label><br>
+                <input type="text" name="" id=""><br>
+                <label for="">Email</label><br>
+                <input type="email" name="" id=""><br>
+                <label for="">Phone</label><br>
+                <input type="number" name="" id=""><br>
+                <label for="">Message</label><br>
+                <textarea name="" id="" cols="47" rows="5"></textarea>
+                <button>Send Message</button>
+            </form>
+        </div>
+
+        <div class="part findus">
+            <h1>Find Us</h1>
+
+            <ul>
+                <li>Address: G.T. Road Phagwara, Punjab 144603</li>
+                <li>Phone: 000-111-2222</li>
+                <li>Email: contact@sarsrestaurant.com</li>
+            </ul>
+            
+            <img src="CSS/Images/location.png" alt="location">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_div">
+            <h1 class="footer_h1">ADDRESS:</h1>
+            <p class="footer_para">SAR's Restaurant</p>
+            <p class="footer_para">G.T. Road Phagwara, Punjab 144603</p>
+        </div>
+
+        <div class="footer_div">
+            <h1 class="footer_h1">RESERVATION:</h1>
+            <p class="footer_para">000-111-222</p>
+            <p class="footer_para">contact@sarsrestaurant.com</p>
+        </div>
+
+        <div class="footer_div">
+            <h1 class="footer_h1">OPEN HOURS:</h1>
+            <p class="footer_para">Monday - Friday: 10AM - 11PM</p>
+            <p class="footer_para">Saturday - Sunday: 9AM - 1PM</p>
+        </div>
+
+        <div class="footer_div one">
+            <p class="footer_para">Copywrite &copy All rigths reserved. Designed and developed by Apoorva, Sayiam and Rehan</p>
+        </div>
+    </footer>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script>
+    $(window).load(function(){
+        $('#myloader').fadeOut();
+    });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menu .items {
+    border: 2px dashed #e7272d;
+    border-radius: 10px;
+    padding: 5px 30px;
+    display: flex;
+    background-color: #efdfdf;
+    text-align: left;
+}
+
+.menu #unitem{
+    grid-area: span 3/ span 2;
+    margin: 0px 25%;
+}
+
+.menu .items img {
+    border: 2px solid white;
+    width: 33%;
+    height: 1.6in;
+}
+
+.menu .items section {
+    width: 55%;
+    padding: 10px 15px;
+}
+
+.menu .items section h3 {
+    font-size: 22px;
+}
+
+.menu .items section h3 span {
+    color: #e7272d;
+}
+
+.menu .items section p {
+    font-size: 18px;
+    margin: 20px 0px 40px 0px;
+}
+
+.menu .items section i {
+    color: #e7272d;
+}
+
+.menu .items section .atc {
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+.menu .items section .atc:hover {
+    color: #e7272d;
+    cursor: pointer;
+}

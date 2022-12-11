@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.about_first {
+    background: url('images/food_bg.jpg') 10% 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65%;
+}
+
+.about_first h1 {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 100px;
+}
+
+.main {
+    height: 72%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px 10% 0px 10%;
+}
+
+.main .para {
+    padding: 30px;
+    text-align: justify;
+}
+
+.main .para h1 {
+    color: #e7272d;
+    font-family: Cookie, cursive;
+    font-size: 45px;
+}
+
+.main .one_pro {
+    padding-top: 10%;
+}
+
+.main .para p {
+    padding: 10 0px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+

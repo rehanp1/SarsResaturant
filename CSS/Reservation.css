@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.reserve_first{
+    background: url('Images/food_bg.jpg') 10% 3% no-repeat;
+    height: 65%;
+    background-size: cover;
+    color: white;
+}
+
+.reserve_first .head{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 90px;
+}
+
+.reserve_main{
+    height: 85%;
+    padding: 0px 14%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reserve_main .part{
+    padding: 60px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reserve_main .form h2{
+    color: #e7272d;
+    font-family: Cookie, cursive;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.reserve_main .form h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.reserve_main .form div{
+    display: flex;
+    margin: 40px 0px;
+    font-size: 18px;
+}
+.reserve_main .form form .sec{
+    margin: 15px 10px;
+}  
+
+.reserve_main .form form input{
+    padding: 10px;
+    border: 1px solid #e7272d;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #e7272d;
+}
+.reserve_main .form form select option{
+    font-size: 17px;
+    color: #e7272d;
+
+}
+.reserve_main .form form select, .reserve_main .form form .date, .reserve_main .form form .time{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid #e7272d;
+    padding: 10px 5px;
+    width: 225px;
+    color: #e7272d;
+    
+}
+
+.reserve_main .form form button{
+    margin-left: 10px;
+    padding: 14px 25px;
+    background-color: #e7272d;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+.reserve_main .form form button:hover{
+    background-color: black;
+}
+.reserve_main .avail>div{
+    border: 2px dashed black;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(243, 228, 228);
+}
+
+.reserve_main .avail .st{
+    font-size: 18px;
+    margin: 10% 0px;
+}
+
+.reserve_main .avail .st h2{
+    color: #e7272d;
+    padding: 5px 0px;
+    font-family: Cookie, cursive;
+    font-size: 36px;
+}
+
+.reserve_main .avail .para{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.reserve_main .avail .para p{
+    padding: 5px 0px;
+}
+
+
+

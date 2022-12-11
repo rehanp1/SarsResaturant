@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/loader.css">
+    <link rel="stylesheet" href="CSS/Navbar.css">
+    <link rel="stylesheet" href="CSS/Home.css">
+    <link rel="shortcut icon" href="CSS/Images/favicon.png" type="image/x-icon">
+    <title>Home</title>
+</head>
+<body>
+    <div id="myloader" class="loader">
+        <div class="loader_img">
+            <div class="lds-hourglass"></div>
+        </div>
+    </div>
+
+    <div class="first">
+        <div class="navbar">
+            <div class="logo">
+                <img src="CSS/Images/logo.png" alt="logo">
+                <p>SAR's Restaurant</p>
+            </div>
+
+            <ul class="navbarul">
+                <li><a href="#">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Recipes.html">Recipes</a></li>
+                <li><a href="Reservation.html">Reservation</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="intro">
+            <h1 class="intro_h1">Fresh Meal, Makes a Day</h1>
+            <p>Where every ingredient tells a story. Food that makes you say wow. We are always here to serve you.</p>
+        </div>
+        
+    </div>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script>
+    $(window).load(function(){
+        $('#myloader').fadeOut();
+    });
+    </script>
+    
+</body>
+</html>

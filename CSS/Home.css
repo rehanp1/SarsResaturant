@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.first {
+    background: url('images/food_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro {
+    width: 50%;
+    font-size: 35px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.intro .intro_h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: red;
+    font-family: Cookie, cursive;
+}
